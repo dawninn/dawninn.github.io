@@ -1,0 +1,17 @@
+# _config.yml
+title: 我的技术博客
+email: your-email@example.com
+description: 记录学习和思考
+baseurl: ""
+url: "https://用户名.github.io"
+
+# 主题设置
+theme: minima  # 先使用默认主题，以后可以换
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 博客设置
+permalink: /:year/:month/:day/:title/
